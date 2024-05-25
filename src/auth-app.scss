@@ -1,0 +1,61 @@
+$navbarHeight: 10vh;
+$containerHeight: 100vh - $navbarHeight;
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: $containerHeight;
+  .form {
+    width: min(400px, 90vw);
+    box-shadow: 2px 2px 10px #e3e3e3;
+    padding: 20px;
+    border-radius: 10px;
+  }
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px auto;
+  padding: 20px;
+  max-width: 600px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-header {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.profile-info {
+  width: 100%;
+}
+
+.profile-field {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.profile-field:last-child {
+  border-bottom: none;
+}
+
+.field-label {
+  font-weight: bold;
+  color: #555;
+}
+
+.field-value {
+  color: #777;
+}
+
+.image{
+  border: 0.5px solid grey;
+  border-radius: 1rem;
+}
